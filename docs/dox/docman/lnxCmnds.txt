@@ -1,0 +1,6 @@
+find \ to stdout directory struct with files
+find -type d \ stdout only directories
+find -type f \ stdout only files
+find -type f -name "f*" \ stdout only files starting with "f"
+find -type f -iname "F*" \ for case insensitive
+find / -type f -iname "*.py" > python-files.txt \ search all python files and concatenate them
