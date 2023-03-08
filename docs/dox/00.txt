@@ -1,0 +1,38 @@
+***Learnings***_________________________________________________________________
+
+1 ML
+    - python
+      - py4e
+    - Anderw Ng
+
+________________________________________________________________________________
+
+1 Cloud
+    - GCP
+    - Terraform
+2 CS
+    - CS50
+      - Main
+      - web in js n py
+3 DevFlow
+    - Setup
+      - Laptop
+        - Install apps
+          - st
+          - dmenu
+          - DWM
+          - zsh
+          - nvim
+          - alacritty
+          - pgadmin4
+          - postgresql
+          - teams
+          - miniconda
+          - docker
+
+***Hobby***_____________________________________________________________________
+
+1 XR n Diet
+2 Music
+3 Sports
+4

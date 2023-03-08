@@ -1,0 +1,36 @@
+KEYBOARD
+
+DOCKER
+
+Ansible
+
+  -GNU-STOW
+
+  ---NVIM
+  ---ZSH
+  ---GIT
+
+
+
+====================================
+
+docker
+git
+gnu-stow
+	nvim
+		init.lua
+		options.lua
+		keymaps.lua
+
+
+keyboard
+
+
+===================================
+
+zsh
+    conda commands alias
+    adding path
+
+ls
+    colors config

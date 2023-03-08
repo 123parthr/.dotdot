@@ -1,0 +1,41 @@
+2 hrs - calendar workflow
+	- daily, weekly and monthly tracking and planning
+
+2 hrs - linux
+	- some udemy course
+	- bash scripting
+	- window manager workflow
+	  - dmenu or replacement
+	  - tmux
+	  - keyboard
+	    - check the primeagen
+	    - update config
+	    - design layout
+	    - design ergonomic keyboard
+
+2 hrs - nvim
+	- setup vscode alike
+
+2 hrs - learn musical instruments
+	- piano
+
+8 hrs - python
+        - py4e
+        - raymond hattinger
+          - pyconf
+          - course
+        - colt steele
+        - angela yu 100 days
+        - flask with sqlalchemy and marshmallow
+        - oop
+
+2 hrs - rust
+
+2 hrs - OS / Workflow
+	- keyboard
+	  - form factor
+	  - layout
+	- window manager
+	  - minimal like dwm in rust
+	  - dmenu like software in rust
+	  - st like termanal in rust

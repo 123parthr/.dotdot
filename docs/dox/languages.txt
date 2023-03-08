@@ -1,0 +1,22 @@
+Languages
+
+=== Computer ===================================================================
+
+python
+bash
+lua
+go
+rust
+c++
+java
+js
+
+
+=== Philology ==================================================================
+
+sanskrit
+hindi
+gujarati
+english
+russian
+urdu

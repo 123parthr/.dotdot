@@ -1,0 +1,33 @@
+Prerequisite: install ripgrep, node.
+
+NVIM
+    options --theprimeagen --kickstart.nvim --nvim from scratch
+    remaps --theprimeagen --nvim from scratch
+    plugins
+        
+        (packer)
+        (harpoon)
+        telescope  --kickstart.nvim  --teej ytube
+        treesitter --kickstart.nvim
+        comments --teej
+        lsp --teej ytube --kickstart.nvim --nivm from scratch --yuki uthman ytube
+        completion --teej ytube --kickstart.nvim --nivm from scratch --yuki uthman ytube
+
+        fugitive, undotree and gitSigns --kickstart.nvim --theprimeagen
+        color scheme
+        status line --kickstart.nvim
+        zenmode
+        treesitter playground
+        lazy plugin manager
+        luasnip --teej --nvim from scratch
+        debug
+        documentation --teej ytube
+        vim be good
+
+    Theme
+        colorscheme --nvim from scratch
+            background
+            tildes -- black
+            splits separator -- black
+            colorcolumn
+            cursorline

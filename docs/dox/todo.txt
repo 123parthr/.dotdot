@@ -1,0 +1,32 @@
+10 February [nix (.desktop) files and stow]
+
+- nix and stow
+- terrace n xr
+
+work
+    - fix bug in dm expense type 
+    - 
+
+learn
+    - py4e
+    - print Calendars
+    - KEYBOARD
+    - andrew ng ML
+    - cs50, OG, for webdev using py n js
+    - git
+    - fix linkedIn
+
+Room
+
+Daily Schedule
+
+Strategies Curriculumn for
+    - Python
+    - DS
+    - CS
+    - Dev Ops
+    - DSA
+
+Sanskrit
+
+set up matrix account

@@ -1,0 +1,141 @@
+=== Course sorce ===============================================================
+
+ZTM
+code with mosh
+frontend masters
+github courses repo open moocs and certs
+acedemind
+colt steele
+jose portila
+angela yu
+deeplearning.ai
+bytebytego
+neetcode
+fireship.io
+
+
+=== PC Setup ===================================================================
+
+primeagen devflow frontend masters
+  - New Setup
+    - Docker
+      - chris titus
+    - Ansible
+      - yaml
+      - ansible vault
+    - stow
+  - Day to Days
+    - window manager
+      - dwm (or wayland alternative)
+    - git
+    - fzf
+      - stdin and stdout
+    - tmux
+    - cht.sh
+    - bash
+      - ZTM
+
+Neovim
+    - setup
+      - kickstart.nvim
+      - lazy.nvim
+      - scroll fixed at top eye level
+      - Multiple setup
+        - traap YTube
+      - TJ
+      - Prime
+    - vim motions
+      - prime ytube
+      - jake weisler ytube (the nix stow guy)
+
+keyboard
+    - this is meant to be done after vim motions
+
+Tools
+    - pgadmin
+    - dbeaver
+    - firefox
+      - verticle tabs
+      - nav like harpoon
+
+
+
+
+
+=== January 2023 ===============================================================
+
+19th jan
+
+1 work on gcp function xero etl
+
+2 
+
+3 courses list for cs
+
+
+Pooju
+    - podcast
+    - vincenzo
+
+
+=== first buffer ===============================================================
+
+find gnu stow vids
+lf for extracting compressed files
+learn about git
+complete python 4 everybody
+setup laptop
+setup keyboard --look up theprimeagen git -- fix some placements
+android lineage os op7
+
+=== career =====================================================================
+
+setup to work at mama's home
+
+setup postman replacement in vscode and nvim
+
+gcp course on udemy also badges
+gcloud
+    functions
+
+
+Config management
+    gnu stow
+
+Git
+    git config
+    git course --colt steele
+
+
+PEP8 and Google style
+
+conda and pip
+
+
+nvim
+
+
+=== hobby ======================================================================
+
+firefox
+    theming 
+        --startup page for productivity
+        --css layout
+    plugin
+        --vimium config
+        -- make navigating a breeze
+            -- homepage
+            -- bookmarks search
+            -- history
+
+surf
+    -- look into suckless browser
+    -- look other lite weight browsers
+
+code editors
+    -- neovim config
+    -- vsCode config
+    -- jupyter lab
+
+keyboard layout
+    -- changing layers with shift and alt-gr

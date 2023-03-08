@@ -1,0 +1,51 @@
+PYTHON
+    PEP8, Google guide to python code.
+    python4everybody
+    krish naik
+    cs50 original and web developement
+    one week
+    ztm
+    functional programming paradigm
+    DS n AL NeetCode, LeetCode top problems
+    DataScience Books
+    stats n maths
+
+Async programming
+
+Git
+
+POSTGRESQL
+    udemy
+
+DS
+    ng
+
+algorithms
+    coursera princeton alg-1 and alg-2
+
+FRONTEND
+    HTML
+        colt steele
+    css
+        tailwind
+    framework
+        svelte
+        solid
+        astro.js
+        deno
+
+
+GCP
+    google course badges
+
+
+TERAFORM
+
+ANSIBLE
+
+SHELL
+
+GO
+    TUI apps
+
+RUST

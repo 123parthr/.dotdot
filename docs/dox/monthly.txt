@@ -1,0 +1,32 @@
+Month Feb 2023
+
+* python
+    - py4e
+    - python in one week
+
+* data science
+    - andrew ng coursera
+
+* gcp
+    - gcp course
+    - terraform for gcp
+
+* git
+    - colt steele
+
+* laptop
+    - nix pckg manager
+    - keyboard
+    - stow
+    - git
+    - dwm
+    - dmenu
+    - st
+
+* nvim
+    - learn to use it
+      - the prime
+        - frontend masters
+        - ytube
+
+

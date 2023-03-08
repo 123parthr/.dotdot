@@ -1,0 +1,18 @@
+### check version
+docker version
+
+### build an image
+docker build -t {tag of image} {location of directory with Dockerfile}
+
+### list of images
+docker images
+
+### pull and run docker image
+docker run {docker image name}:{image  version tag}
+
+### list running containers
+docker ps
+docker ps -a # list all containers
+
+### run docker images interactively
+docker run -it {image name}

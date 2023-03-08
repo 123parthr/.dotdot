@@ -1,0 +1,23 @@
+Tools and CS
+
+nvim
+    fix- lead + a not adding files to harpoon
+
+=== Tools ======================================================================
+
+nvim
+git
+gnu-stow
+ansible
+firefox
+keyboard
+docker
+nix-package manager
+zsh
+chatgpt
+copilot
+
+
+=== CS =========================================================================
+
+
