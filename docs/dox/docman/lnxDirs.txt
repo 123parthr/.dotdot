@@ -1,0 +1,40 @@
+In linux every thing is a file
+
+### Top level directories
+"/"
+  - Main root directory
+"/bin"
+  - common executables available for everyone, eg. cp, rm, ls
+"/boot"
+  - linux kernel and boot configuration like grub
+"/dev"
+  - files which point to both physical and pseudo devices
+"/etc" - editable text configuration
+  - system and program configuration files
+"/home"
+  - non-root user home directories
+"/lib"
+  - it contains kernel modules and a shared code between binaries
+"/media"
+  - removable media devices
+"/mnt"
+  - temporary mount directories for mounting file system
+"/opt"
+  - optional or third party software
+"/proc"
+  - files represents running processes
+"/root"
+  - root user home directory
+"/sbin"
+  - system binaries, to be executed by root user (system admins)
+"/tmp"
+  - temporary files, typically cleared on reboot
+"/usr"
+  - user related programs
+  "/usr/bin"
+    - non essential for os, installed binaries for user
+  "/usr/local/bin"
+    - locally compiled binaries
+"/var"
+  - files which are updated frequently, log files, application data
+
