@@ -1,7 +1,3 @@
-# Created by newuser for 5.9
-
-if [ -e /home/p/.nix-profile/etc/profile.d/nix.sh ]; then . /home/p/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
-
 # Enable colors
 autoload -U colors && colors
 
@@ -93,20 +89,16 @@ alias viacs='cd ~/binery-core/packages/binery-acs && nvim .'
 alias vizsh='nvim ~/.zshrc'
 alias sozsh='source ~/.zshrc'
 alias docacs='cd ~/Desktop/binery'
-alias cdox='cd ~/dox'
+alias doc='cd ~/dox/docman'
 alias f='lf'
 alias vids='lf ~/Videos'
+alias down='lf ~/Downloads'
 alias fpy='lf ~/py4e/vdo'
 alias pg='pgadmin4'
 #alias ls='exa --icons'
 alias td='date +"%y%m%d"'
 alias q='exit'
 alias projacs='cd binery-core/packages/binery-acs'
-
-alias nxi='nix-env -iA'
-alias nxe='nix-env -e'
-alias nxu='nix-env -u'
-
 
 # alias lwf='flatpak run io.gitlab.librewolf-community & xdotool search --sync --onlyvisible --class "Librewolf" windowactivate key F11'
 # alias lw='flatpak run io.gitlab.librewolf-community'
@@ -130,6 +122,3 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH="$PATH:/usr/bin/Postman:/usr/pgadmin4/bin"
-
-export LC_ALL="en_US.UTF-8"
-export LANGUAGE="en_US.UTF-8"
