@@ -4,3 +4,37 @@ find -type f \ stdout only files
 find -type f -name "f*" \ stdout only files starting with "f"
 find -type f -iname "F*" \ for case insensitive
 find / -type f -iname "*.py" > python-files.txt \ search all python files and concatenate them
+
+">" \ redirect and concatnate the stdout to a file
+
+">>" \ append the stdout to a file
+
+";" \ used to separate more than 1 cmnds, they execute one after the other
+    \ if one fails others are executed
+
+"&&" \ used to separate more than 1 cmnds, they execute one after the other
+    \ if one fails others are not executed
+
+"&" \ if added to the end of a command will make it execute in the backgrout
+"sleep 100 &"
+
+"||" \ or operator
+
+"|" \ piping, passing output of one operation into the next
+
+"\" \ can be used to split our command in multiple lines in terminal
+
+"printenv" \ prints all the ENV variables
+"printenv PATH" or "echo &PATH" \ prints PATH variable
+
+"export VARNAME=value" \ will export the new variable for current session
+
+"echo VARNAME=value > .zshrc" \ appends new VAR to zshrc file
+
+"ps" \ stdouts currently running processes
+
+"kill {PID from ps}" \ terminates the process with that PID
+
+"useradd" \ to add the user
+"usermod" \ modify the user
+"userdel" \ deletes the user
