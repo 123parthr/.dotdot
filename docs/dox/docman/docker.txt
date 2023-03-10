@@ -18,3 +18,7 @@ docker ps -a # list all containers
 docker run -it {image name}
 or
 docker run -i {container id or first few unique chars}
+
+docker ps
+dockre exec -it {CONTAINER ID} bash \ to execute container in interactive mode login as root
+dockre exec -it -u parth {CONTAINER ID} bash \ login as parth

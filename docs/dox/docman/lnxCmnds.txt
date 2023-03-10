@@ -15,7 +15,7 @@ find / -type f -iname "*.py" > python-files.txt \ search all python files and co
 "&&" \ used to separate more than 1 cmnds, they execute one after the other
     \ if one fails others are not executed
 
-"&" \ if added to the end of a command will make it execute in the backgrout
+"&" \ if added to the end of a command will make it execute in the backgroud
 "sleep 100 &"
 
 "||" \ or operator
@@ -33,8 +33,19 @@ find / -type f -iname "*.py" > python-files.txt \ search all python files and co
 
 "ps" \ stdouts currently running processes
 
+"sleep {seconds in num}" \ to make program sleep
+
 "kill {PID from ps}" \ terminates the process with that PID
 
 "useradd" \ to add the user
 "usermod" \ modify the user
 "userdel" \ deletes the user
+"adduser {name}" \ user useradd under the hood, more interactive, creates and adds the user to group
+          \ also home directory will be created
+          \ asks to set password
+
+"useradd -m parth" \ adds an user name parth and creates a home directory for the same
+"cat /etc/passdw
+"usermod -s /bin/bash parth" \ change default shell for parth to bash
+"cat /etc/shadow" \ passwords are stored in encrypted format
+
