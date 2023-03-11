@@ -1,0 +1,6 @@
+todo
+
+check nix package manager availability for
+lf
+vscodium
+brave browser
