@@ -76,7 +76,7 @@ alias jn='jupyter notebook'
 
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
-alias ll='ls -lah --color=auto'
+alias la='ls -lah --color=auto'
 
 alias nvi='~/.local/bin/squashfs-root/usr/bin/nvim' # add .local/bin instead of /bin
 alias vi='nvim'
