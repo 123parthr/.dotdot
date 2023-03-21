@@ -1,3 +1,13 @@
+*** install ***
+fonts
+postgres
+pgadmin
+vscode
+teams
+alacritty
+dwm
+
+
 todo
 
 check nix package manager availability for
