@@ -28,14 +28,12 @@ vim.opt.updatetime = 500
 vim.opt.colorcolumn = "81,101"
 vim.api.nvim_set_hl(0,'ColorColumn',{ bg='#000000' })
 
---[[ vim.opt.cursorline = true
-vim.api.nvim_set_hl(0,'CursorLine',{ bg='#2f2f2f' }) ]]
+vim.opt.cursorline = true
+vim.api.nvim_set_hl(0,'CursorLine',{ bg='#2f2f2f' })
 
--- colorscheme = habamax
--- vim.cmd [[ colorscheme habamax ]]
-vim.cmd.colorscheme("habamax")
-vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#000000" })
+-- vim.cmd.colorscheme("habamax")
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#000000" })
 
 
 vim.g.netrw_browse_split = 0
