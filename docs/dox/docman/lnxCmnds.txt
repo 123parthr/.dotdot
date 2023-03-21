@@ -49,3 +49,6 @@ find / -type f -iname "*.py" > python-files.txt \ search all python files and co
 "usermod -s /bin/bash parth" \ change default shell for parth to bash
 "cat /etc/shadow" \ passwords are stored in encrypted format
 
+ctrl + w \ will delete the last world in prompt stdin
+
+cat, more, less, head -n {5}, tail -n {number} 
