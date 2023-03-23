@@ -79,7 +79,7 @@ alias ls='ls -ah --color=auto --group-directories-first'
 alias la='ls -lah --color=auto'
 
 alias nvi='~/.local/bin/squashfs-root/usr/bin/nvim' # add .local/bin instead of /bin
-alias vi='nvim'
+alias vi='nvim -c "colorscheme habamax"'
 alias agenda='nvim ~/dox/0today.txt'
 alias todo='nvim ~/dox/todo.txt'
 alias virc='cd ~/.config/nvim && nvim .'
