@@ -4,12 +4,8 @@ postgres
 pgadmin
 vscode
 teams
-alacritty
-dwm
-    - feh
-    - unclutter
-    - redshift
 
+*** Keyboard setup files
 
 todo
 
