@@ -38,8 +38,8 @@ setopt autocd extendedglob nomatch
 unsetopt beep notify
 
 # Aliases
-alias a='~/./a.sh'
-alias c='~/./a.sh'
+alias a='~/.config/mescripts/a.sh'
+alias c='~/.config/mescripts/a.sh'
 
 alias alu='apt list --upgradable'
 alias ud='sudo apt update'
