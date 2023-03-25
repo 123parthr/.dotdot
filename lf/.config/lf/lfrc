@@ -1,0 +1,11 @@
+set scrolloff 25
+
+# Mappings
+
+map k up
+map j down
+map h updir
+map l open
+map <enter> open
+map q quit
+map . set hidden!
