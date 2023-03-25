@@ -60,7 +60,7 @@ alias drm='docker rm'
 
 alias gs='git status'
 alias ga='git add .'
-alias gc='git commit -m'
+alias gm='git commit -m'
 alias gps='git push'
 alias gpl='git pull'
 
