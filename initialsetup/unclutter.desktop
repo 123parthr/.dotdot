@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=unclutter -idle 3
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=unclutter
+Name=unclutter
+Comment[en_US]=hides mouse courser
+Comment=hides mouse courser
