@@ -27,7 +27,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
     /* class           instance    title       tags mask     switchtotag     isfloating   monitor */
-/*     { NULL,            NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 }, */
+    { NULL,            NULL,       NULL,       1 << 6,       1 << 6,         0,           -1 },
     { "Alacritty",     NULL,       NULL,       1 << 0,       1 << 0,         0,           -1 },
     { "st",            NULL,       NULL,       1 << 1,       1 << 1,         0,           -1 },
     { "Code",          NULL,       NULL,       1 << 1,       1 << 1,         0,           -1 },
