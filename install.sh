@@ -1,3 +1,5 @@
+#/bin/bash
+
 # install nix
 curl -L https://nixos.org/nix/install | sh
 
@@ -7,13 +9,13 @@ curl -L https://nixos.org/nix/install | sh
 # install packages
 nix-env -iA \
     nixpkgs.bat \
-    nixpkgs.neovim \
     nixpkgs.stow \
+    nixpkgs.lf \
     nixpkgs.zsh
 
 # stow
-stow nvim
 stow zsh
+stow nvim
 
 # add zsh to valid login shells
 command -v zsh | sudo tee -a /etc/shells
