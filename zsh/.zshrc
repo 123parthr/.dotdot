@@ -78,7 +78,7 @@ alias py='python3'
 alias jn='jupyter notebook'
 alias pg='pgadmin4'
 
-alias desk='cd ~/Desktop'
+alias dsk='cd ~/Desktop'
 alias doc='cd ~/dox/docman'
 alias dot='cd ~/.dotdot'
 alias projacs='cd binery-core/packages/binery-acs'
