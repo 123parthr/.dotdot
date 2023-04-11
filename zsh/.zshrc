@@ -123,4 +123,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-export PATH="$PATH:/usr/bin/Postman:/usr/pgadmin4/bin"
+export PATH="$PATH:/usr/bin/Postman:/usr/pgadmin4/bin:$HOME/nvim/bin"
