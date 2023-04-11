@@ -89,16 +89,18 @@ alias vids='cd ~/Videos && lf'
 alias dwn='cd ~/Downloads && lf'
 alias fpy='cd ~/py4e/vdo && lf'
 
+# Fix vi opening with proper colorscheme
 alias nvi='~/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
 alias vi='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
-alias virc='cd ~/.config/nvim && nvim .'
+alias virc='cd ~/.config/nvim && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias vibk='mv ~/.config/nvim ~/.config/nvimfinal'
 alias viget='mv ~/.config/nvimfinal ~/.config/nvim'
 alias viacs='cd ~/binery-core/packages/binery-acs && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" .'
-alias viz='nvim ~/.zshrc -c "colorscheme habamax"'
+alias viz='nvim ~/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias soz='source ~/.zshrc'
-alias agenda='nvim ~/dox/0today.txt'
-alias todo='nvim ~/dox/todo.txt'
+alias agenda='nvim ~/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias todo='nvim ~/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias setlap='nvim ~/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
