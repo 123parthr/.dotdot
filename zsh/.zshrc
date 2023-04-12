@@ -47,10 +47,10 @@ alias ug='sudo apt upgrade -y'
 alias sai='sudo apt install'
 alias sau='sudo apt autoremove'
 alias debin='sudo dpkg -i'
-alias ni='nix-env -iA ' # nix-env -iA nixpkgs.packagename # install
-alias ne='nix-env -e ' # nix-env -e packagename # erase
-alias nu='nix-env -u' # Update All Packages
-alias nl='nix-env -q' # List All Packages
+alias ni='nix-env -iA' # nix-env -iA nixpkgs.packagename # install
+alias ne='nix-env -e'  # nix-env -e packagename # erase
+alias nu='nix-env -u'  # Update All Packages
+alias nl='nix-env -q'  # List All Packages
 
 alias wifil='nmcli device wifi list'
 alias wific='nmcli device wifi connect'
@@ -82,11 +82,12 @@ alias py='python3'
 alias jn='jupyter notebook'
 alias pg='pgadmin4'
 
-alias dsk='cd ~/Desktop'
 alias doc='cd ~/dox/docman'
-alias dot='cd ~/.dotdot'
-alias projacs='cd binery-core/packages/binery-acs'
 alias docacs='cd ~/Desktop/binery'
+alias dot='cd ~/.dotdot'
+alias dsk='cd ~/Desktop'
+alias projacs='cd binery-core/packages/binery-acs'
+alias sckls='cd ~/suckless'
 
 alias f='lf'
 alias vids='cd ~/Videos && lf'
@@ -104,7 +105,7 @@ alias viz='nvim ~/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias soz='source ~/.zshrc'
 alias agenda='nvim ~/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias todo='nvim ~/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
-alias setlap='nvim ~/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias setlap='nvim ~/.dotdot/.xtra/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
