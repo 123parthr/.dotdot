@@ -1,0 +1,36 @@
+Keyboard
+
+Wifi fix
+
+purge
+
+dotdot
+    nix
+      stow
+      lf
+      zsh
+      alacritty
+
+gnome settings
+    open single click
+    wallpaper
+    keyboard
+    startup files
+    desktop files
+
+
+font
+    victor mono
+
+dwm
+
+
+
+
+
+vscode
+    config
+
+firefox
+    config
+

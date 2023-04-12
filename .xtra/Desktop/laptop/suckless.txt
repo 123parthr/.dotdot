@@ -1,0 +1,13 @@
+***st***
+
+% sudo apt install libx11-dev libxft-dev
+% git clone git://git.suckless.org/st
+% sudo make clean install
+
+# change config.def.h accordingly
+font install and set,
+boredrpx = 0
+size of terminal cols and rows
+color of terminal
+cursor thickness = 1
+# for new builds edit config.def.h and delete config.h before make

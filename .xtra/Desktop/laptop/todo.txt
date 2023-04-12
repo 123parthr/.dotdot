@@ -1,0 +1,10 @@
+zsh
+font
+dwm
+dmenu
+st
+nvim
+lf
+vscodium
+firefox
+wallpapaer add to .dotdot

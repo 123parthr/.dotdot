@@ -1,0 +1,3 @@
+sudo apt purge gnome-weather simple-scan popsicle popsicle-gtk totem  seahorse geary gnome-contacts gnome-calendar gnome-calculator baobab  nano libreoffice* ibus-libpinyin gnome-power-manager  com.github.donadigo.eddy
+
+sudo apt autoremove

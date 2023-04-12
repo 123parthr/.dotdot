@@ -1,0 +1,33 @@
+keyboard setup
+
+1. copy layout files
+% sudo cp g g-hjkl-like-vi /usr/share/X11/xkb/symbols/
+
+2. copy evdev.xml
+% sudo cp evdev.xml /usr/share/X11/xkb/rules/
+
+3. copy .Xmodmap (consider copying it to .config/mescripts)
+% mkdir -p ~/.config/mescripts
+% cp .Xmodmap ~/.config/mescripts/
+
+4. make xmodmap and xset run on start-up
+% mkdir -p ~/.config/autostart
+% cp xmodmap.desktop xset.desktop ~/.config/autostart/
+
+5. copy a.sh file to somewhere with alias in zshrc
+% cp a.sh ~/.config/mescripts
+
+6. set prefered keys layout
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'g')]"
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'g'),('xkb', 'us')]"
+
+OR
+gsettings set org.gnome.desktop.input-sources sources "[('"xkb"','"g"'),('"xkb"','"us"')]"
+#!/bin/bash
+gdbus call --session --dest org.gnome.Shell \
+    --object-path /org/gnome/Shell \
+    --method org.gnome.Shell.Eval \
+    "imports.ui.status.keyboard.getInputSourceManager().inputSources[0].activate()"
+
+7. run a.sh
+% ~/.config/mescripts/./a.sh

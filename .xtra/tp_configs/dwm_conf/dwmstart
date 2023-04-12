@@ -1,0 +1,25 @@
+#!/bin/sh
+
+setxkbmap -layout g
+
+xmodmap ~/.Xmodmap
+
+xset r rate 250 50 r 66 &
+
+unclutter -idle 4 &
+
+redshift -l 23.0:72.6 -t 5000:5000 -g 0.9 -m randr -v &
+
+# Setting up Monitor selection
+intern=eDP-1
+extern=HDMI-1
+
+if xrandr | grep "$extern disconnected"; then
+    xrandr --output "$extern" --off --output "$intern" --auto
+else
+    xrandr --output "$intern" --off --output "$extern" --auto
+fi
+
+feh --no-fehbg --bg-fill '/home/penguin/Pictures/Wallpapers/THEWP.png' &
+
+exec dwm

@@ -1,0 +1,56 @@
+win
+    a 4th tag
+    b toggle bar
+    c 1st tag
+    d
+    e 3rd tag
+    f tiling layout
+    g
+    h dmenu
+    i 2nd tag
+    j focus stack +1
+    k focus stack -1
+    l librewolf
+    m monocle layout
+    n
+    o 6th tag
+    p
+    q kill window
+    r
+    s
+    t st
+    u 7th tag
+    v
+    w firefox
+    x
+    y 5th tag
+    z
+   CR alacritty
+
+win + shift
+    a 
+    b
+    c
+    d
+    e
+    f
+    g
+    h
+    i
+    j
+    k
+    l
+    m
+    n
+    o
+    p
+    q kill dwm
+    r
+    s
+    t
+    u
+    v
+    w
+    x
+    y
+    z

@@ -1,0 +1,37 @@
+* fix wifi driver
+    - wifi.txt (lp)
+
+* setup keyboard
+    - keyboard/keyboardsetup.txt (lp)
+
+* remove apps
+    - purge.txt (lp)
+    
+* Font
+    - font.sh
+
+* install gnu stow and clone .dotdot
+    - with suckless config and zshrc
+
+* setup zsh
+    - install and change zsh shell
+
+* after installing st update nvim.desktop file so default files opens in st in nvim
+    - shortcut win+t
+
+
+# nvim config cp install packer
+    - packer
+    - install npm
+      - sudo apt install npm
+
+# install and set
+zsh
+nvim
+dwm
+dmenu
+st
+alacritty
+
+# system setup
+change wallpaper

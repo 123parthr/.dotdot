@@ -1,0 +1,23 @@
+# screen tearing
+# pgsql
+# pgadmin
+# miniConda
+# gcloud cli
+
+firefox bookmarks # Almost done
+    - theme
+    # - jira login
+    # - outlook login
+    # - gsuite login
+
+
+vscode # installed
+    - setup gcloud plugin
+
+nvim
+
+
+
+
+
+organize laptop

@@ -1,0 +1,3 @@
+# if wifi not found install following driver
+
+sudo apt install bcmwl-kernel-source
