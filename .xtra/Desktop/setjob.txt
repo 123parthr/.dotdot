@@ -4,15 +4,15 @@
 # miniConda
 # gcloud cli
 
+vscode # installed
+    - setup gcloud plugin
+
+
 firefox bookmarks # Almost done
     - theme
     # - jira login
     # - outlook login
     # - gsuite login
-
-
-vscode # installed
-    - setup gcloud plugin
 
 nvim
 
