@@ -9,8 +9,11 @@ curl -L https://nixos.org/nix/install | sh
 # install packages
 nix-env -iA \
     nixpkgs.bat \
-    nixpkgs.stow \
+    nixpkgs.feh \
+    nixpkgs.htop \
     nixpkgs.lf \
+    nixpkgs.stow \
+    nixpkgs.unclutter \
     nixpkgs.zsh
 
 # stow

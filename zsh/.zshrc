@@ -45,8 +45,12 @@ alias alu='apt list --upgradable'
 alias ud='sudo apt update'
 alias ug='sudo apt upgrade -y'
 alias sai='sudo apt install'
+alias sau='sudo apt autoremove'
 alias debin='sudo dpkg -i'
-alias npi='nix-env -iA '
+alias ni='nix-env -iA ' # nix-env -iA nixpkgs.packagename # install
+alias ne='nix-env -e ' # nix-env -e packagename # erase
+alias nu='nix-env -u' # Update All Packages
+alias nl='nix-env -q' # List All Packages
 
 alias wifil='nmcli device wifi list'
 alias wific='nmcli device wifi connect'
