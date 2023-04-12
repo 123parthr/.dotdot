@@ -95,7 +95,7 @@ alias fpy='cd ~/py4e/vdo && lf'
 
 # Fix vi opening with proper colorscheme
 alias nvi='~/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
-alias vi='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias vi='nvim . -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias virc='cd ~/.config/nvim && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias vibk='mv ~/.config/nvim ~/.config/nvimfinal'
 alias viget='mv ~/.config/nvimfinal ~/.config/nvim'
