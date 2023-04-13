@@ -3,6 +3,7 @@
 # pgadmin
 # miniConda
 # gcloud cli
+# teams
 
 vscode # installed
     - setup gcloud plugin
