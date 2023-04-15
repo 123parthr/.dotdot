@@ -82,7 +82,7 @@ alias py='python3'
 alias jn='jupyter notebook'
 alias pg='pgadmin4'
 
-alias dox='cd ~/.dotdot/docs/Documents'
+alias dox='cd ~/.dotdot/dox/Documents'
 alias docacs='cd ~/Desktop/binery'
 alias dot='cd ~/.dotdot'
 alias dsk='cd ~/Desktop'
