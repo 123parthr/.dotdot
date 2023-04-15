@@ -1,9 +1,9 @@
 *** install ***
-fonts
-postgres
-pgadmin
+# fonts
+# postgres
+# pgadmin
 vscode
-teams
+# teams
 
 *** Keyboard setup files
 

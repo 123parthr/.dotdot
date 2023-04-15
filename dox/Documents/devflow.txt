@@ -1,0 +1,15 @@
+GIT
+    - git worktree
+    - merge conflict in nvim with fugitive (yt devops tools)
+
+NVIM
+
+GNU-STOW
+
+NIX-PACKAGE-MANAGER
+
+ANSIBLE
+
+DOCKER
+
+ZSH
