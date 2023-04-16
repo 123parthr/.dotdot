@@ -1,0 +1,5 @@
+asvetliakov.vscode-neovim
+googlecloudtools.cloudcode
+ms-python.isort
+ms-python.python
+ms-python.vscode-pylance
