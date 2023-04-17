@@ -5,17 +5,21 @@
 # gcloud cli
 # teams
 
-vscode # installed
+# vscode
     - setup gcloud plugin
 
 
-firefox bookmarks # Almost done
-    - theme
+firefox # Almost done
+    - bookmarks
+    - plugins
+    - layout
     # - jira login
     # - outlook login
     # - gsuite login
 
 nvim
+    - for vscode
+    - for nvim
 
 
 

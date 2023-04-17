@@ -38,8 +38,9 @@ setopt autocd extendedglob nomatch
 unsetopt beep notify
 
 # Aliases
-alias a='~/.config/mescripts/a.sh'
-alias c='~/.config/mescripts/a.sh'
+alias a='/home/$USER/.config/mescripts/a.sh'
+alias c='/home/$USER/.config/mescripts/a.sh'
+alias nv='/home/$USER/.dotdot/mescripts/.config/mescripts/nv.sh'
 
 alias alu='apt list --upgradable'
 alias ud='sudo apt update'
@@ -82,32 +83,33 @@ alias py='python3'
 alias jn='jupyter notebook'
 alias pg='pgadmin4'
 
-alias dox='cd ~/.dotdot/dox/Documents'
-alias docacs='cd ~/Desktop/binery'
-alias dot='cd ~/.dotdot'
-alias dsk='cd ~/Desktop'
-alias projacs='cd binery-core/packages/binery-acs'
-alias sckls='cd ~/suckless'
+alias dox='cd /home/$USER/.dotdot/dox/Documents'
+alias docacs='cd /home/$USER/Desktop/binery'
+alias dot='cd /home/$USER/.dotdot'
+alias mescripts='cd /home/$USER/.dotdot/mescripts/.config/mescripts'
+alias dsk='cd /home/$USER/Desktop'
+alias projacs='cd /home/$USER/binery-core/packages/binery-acs'
+alias sckls='cd /home/$USER/suckless'
 
 alias f='lf'
-alias vids='cd ~/Videos && lf'
-alias dwn='cd ~/Downloads && lf'
-alias fpy='cd ~/py4e/vdo && lf'
+alias vids='cd /home/$USER/Videos && lf'
+alias dwn='cd /home/$USER/Downloads && lf'
+alias fpy='cd /home/$USER/py4e/vdo && lf'
 
 # Fix vi opening with proper colorscheme
-alias nvi='~/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
+alias nvi='/home/$USER/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
 alias vi='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias vit='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
-alias virc='cd ~/.config/nvim && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
-alias mpe='cd ~/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
-alias vibk='mv ~/.config/nvim ~/.config/nvimfinal'
-alias viget='mv ~/.config/nvimfinal ~/.config/nvim'
-alias viacs='cd ~/binery-core/packages/binery-acs && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" .'
-alias viz='nvim ~/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
-alias soz='source ~/.zshrc'
-alias agenda='nvim ~/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
-alias todo='nvim ~/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
-alias setlap='nvim ~/.dotdot/.xtra/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias virc='cd /home/$USER/.config/nvim && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
+alias mpe='cd /home/$USER/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
+alias vibk='mv /home/$USER/.config/nvim ~/.config/nvimfinal'
+alias viget='mv /home/$USER/.config/nvimfinal ~/.config/nvim'
+alias viacs='cd /home/$USER/binery-core/packages/binery-acs && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" .'
+alias viz='nvim /home/$USER/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias soz='source /home/$USER/.zshrc'
+alias agenda='nvim /home/$USER/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias todo='nvim /home/$USER/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias setlap='nvim /home/$USER/.dotdot/xtra/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
@@ -125,14 +127,14 @@ alias q='exit'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/p/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/$USER/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/p/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/p/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/$USER/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/$USER/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/p/miniconda3/bin:$PATH"
+        export PATH="/home/$USER/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

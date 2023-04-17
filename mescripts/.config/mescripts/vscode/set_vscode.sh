@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat /home/$USER/.dotdot/vscode/extensions.txt | xargs -n 1 code --install-extension
+cat /home/$USER/.dotdot/mescripts/.config/mescripts/vscode/extensions.txt | xargs -n 1 code --install-extension
 
 # remove settings
 rm /home/$USER/.config/Code/User/settings.json

@@ -15,10 +15,11 @@
     "workbench.editor.restoreViewState": false,
     "files.restoreUndoStack": false,
     "editor.codeLens": false,
-    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
     "javascript.suggest.enabled": false,
     "typescript.suggest.enabled": false,
-    "extensions.ignoreRecommendations": true,
     "git.openRepositoryInParentFolders": "never",
-    "window.menuBarVisibility": "hidden"
+    "window.menuBarVisibility": "hidden",
+    "extensions.ignoreRecommendations": true,
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/p/nvim/bin/nvim"
 }
