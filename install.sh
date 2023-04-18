@@ -16,6 +16,8 @@ nix-env -iA \
     nixpkgs.unclutter \
     nixpkgs.zsh
 
+    # nixpkgs.mpv \
+
 # stow
 stow zsh
 stow nvim
