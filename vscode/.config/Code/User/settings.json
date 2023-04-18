@@ -21,5 +21,7 @@
     "git.openRepositoryInParentFolders": "never",
     "window.menuBarVisibility": "hidden",
     "extensions.ignoreRecommendations": true,
-    "vscode-neovim.neovimExecutablePaths.linux": "/home/p/nvim/bin/nvim"
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/p/nvim/bin/nvim",
+    "editor.fontFamily": "'Victor Mono' , 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 15
 }
