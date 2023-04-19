@@ -101,7 +101,7 @@ alias nvi='/home/$USER/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme hab
 alias vi='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias vit='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias virc='cd /home/$USER/.config/nvim && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
-alias mpe='cd /home/$USER/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
+alias mpvrc='cd /home/$USER/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias vibk='mv /home/$USER/.config/nvim ~/.config/nvimfinal'
 alias viget='mv /home/$USER/.config/nvimfinal ~/.config/nvim'
 alias viacs='cd /home/$USER/binery-core/packages/binery-acs && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" .'
