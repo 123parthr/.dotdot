@@ -5,6 +5,15 @@
 # gcloud cli
 # teams
 
+nvim
+    - for vscode
+    - for nvim
+      - lazy
+
+Hardcore Humane
+
+organize laptop
+
 # vscode
     - setup gcloud plugin
 
@@ -17,12 +26,7 @@ firefox # Almost done
     # - outlook login
     # - gsuite login
 
-nvim
-    - for vscode
-    - for nvim
 
 
 
 
-
-organize laptop
