@@ -1,1 +1,1 @@
-require "meconf"
+require "meConf"

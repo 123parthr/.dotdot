@@ -1,9 +1,3 @@
-# screen tearing
-# pgsql
-# pgadmin
-# miniConda
-# gcloud cli
-# teams
 
 nvim
     - for vscode
@@ -13,9 +7,8 @@ nvim
 Hardcore Humane
 
 organize laptop
+    - show them their place
 
-# vscode
-    - setup gcloud plugin
 
 
 firefox # Almost done
@@ -26,7 +19,15 @@ firefox # Almost done
     # - outlook login
     # - gsuite login
 
+# vscode
+    - setup gcloud plugin
 
+# screen tearing
+# pgsql
+# pgadmin
+# miniConda
+# gcloud cli
+# teams
 
 
 
