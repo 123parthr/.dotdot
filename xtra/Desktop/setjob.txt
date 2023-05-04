@@ -6,6 +6,8 @@ nvim
 
 Hardcore Humane
 
+set vocal time update in laptop
+
 organize laptop
     - show them their place
 

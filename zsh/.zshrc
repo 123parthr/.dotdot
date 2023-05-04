@@ -53,8 +53,16 @@ alias ne='nix-env -e'  # nix-env -e packagename # erase
 alias nu='nix-env -u'  # Update All Packages
 alias nl='nix-env -q'  # List All Packages
 
+alias edwc='nmcli dev disconnect enp7s0 && nmcli radio wifi on'
+alias ethc='nmcli dev connect enp7s0'
+alias ethd='nmcli dev disconnect enp7s0'
+alias ethrecon='nmcli dev disconnect enp7s0 && nmcli dev connect enp7s0'
+alias netdevices='nmcli dev status'
+alias wdec='nmcli radio wifi off && nmcli dev connect enp7s0'
+alias wificon='nmcli device wifi connect'
+alias wific='nmcli radio wifi on'
+alias wifid='nmcli radio wifi off'
 alias wifil='nmcli device wifi list'
-alias wific='nmcli device wifi connect'
 
 alias di='docker images'
 alias dps='docker ps'
@@ -76,7 +84,7 @@ alias rb='systemctl reboot'
 alias hi='systemctl suspend'
 
 alias ca='conda activate'
-alias cacs='conda activate binacs2'
+alias cacs='conda activate binacs'
 alias cda='conda deactivate'
 
 alias py='python3'
@@ -90,6 +98,7 @@ alias mescripts='cd /home/$USER/.dotdot/mescripts/.config/mescripts'
 alias dsk='cd /home/$USER/Desktop'
 alias projacs='cd /home/$USER/binery-core/packages/binery-acs'
 alias sckls='cd /home/$USER/suckless'
+alias acscr='conda activate binacs && cd /home/$USER/work/binery-acs/scripts'
 
 alias f='lf'
 alias vids='cd /home/$USER/Videos && lf'
@@ -106,7 +115,7 @@ alias virc='cd /home/$USER/.config/nvim && nvim -c "colorscheme habamax" -c "hi 
 alias mpvrc='cd /home/$USER/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias vibk='mv /home/$USER/.config/nvim ~/.config/nvimfinal'
 alias viget='mv /home/$USER/.config/nvimfinal ~/.config/nvim'
-alias viacs='cd /home/$USER/binery-core/packages/binery-acs && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" .'
+alias viacs='conda activate binacs && cd /home/$USER/work/binery-acs && NVIM_APPNAME=nvi nvim -c "Ex"'
 alias viz='nvim /home/$USER/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias soz='source /home/$USER/.zshrc'
 alias agenda='nvim /home/$USER/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
