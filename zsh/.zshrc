@@ -122,6 +122,7 @@ alias agenda='nvim /home/$USER/dox/0today.txt -c "colorscheme habamax" -c "hi No
 alias todo='nvim /home/$USER/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias setlap='nvim /home/$USER/.dotdot/xtra/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias cmp='cd /home/$USER/work/binery-data/ && nvim 00companieslist.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias prac='cd /home/$USER/Music/python_std_e/prac && conda activate prac'
 
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
