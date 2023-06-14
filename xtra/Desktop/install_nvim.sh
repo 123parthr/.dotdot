@@ -3,6 +3,9 @@
 # Build prerequisites
 sudo apt-get install ninja-build gettext libtool-bin cmake g++ pkg-config unzip curl
 
+# Change Directory
+cd suckless
+
 # Cloning git
 git clone https://github.com/neovim/neovim
 

@@ -3,18 +3,23 @@
     - headphones/neckbend
     - rechargeable cells
     - football
-    - tennis racquet
     - keychron lowprofile 65
     - ergonomic keys
 
     - laptop
       - rtx 4090 175w
       - linux
+      OR
+      - the one which can be connected to monitor
+      - and later deeplerning machine
 
     - Monitor
       - Dell UltraSharp U3023E
 
     - Tablet
+    - tennis racquet
+      - head gravity pro 2023
+      - head lynx tour 48lbs
 
 
 
