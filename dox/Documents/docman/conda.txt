@@ -1,0 +1,22 @@
+conda create -n [ENV NAME] python=3.11
+
+pip install -r requirements.txt
+
+pip freeze > requirements.txt
+
+# list env
+conda env list
+
+# Delete an Environment in Conda
+conda env remove -n [ENV NAME]
+conda remove -n [ENV NAME] --all
+
+# update conda
+conda update conda
+
+# search python versions
+conda search python
+
+# list packages in env
+conda list # when in activated env
+conda list -n [ENV NAME]

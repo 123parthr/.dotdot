@@ -78,8 +78,8 @@ static const char *web2cmd[]  = { "librewolf", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_h,      spawn,          {.v = dmenucmd } },
-    { MODKEY,                       XK_t,      spawn,          {.v = termcmd } },
-    { MODKEY,                       XK_Return, spawn,          {.v = term2cmd } },
+    { MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
+    { MODKEY,                       XK_t,      spawn,          {.v = term2cmd } },
     { MODKEY,                       XK_w,      spawn,          {.v = webcmd } },
     { MODKEY,                       XK_l,      spawn,          {.v = web2cmd} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },

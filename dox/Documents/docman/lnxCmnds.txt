@@ -52,3 +52,5 @@ find / -type f -iname "*.py" > python-files.txt \ search all python files and co
 ctrl + w \ will delete the last world in prompt stdin
 
 cat, more, less, head -n {5}, tail -n {number} 
+
+"chmod +x file.sh" \ make file executable

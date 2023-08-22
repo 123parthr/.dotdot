@@ -52,6 +52,7 @@ alias ni='nix-env -iA' # nix-env -iA nixpkgs.packagename # install
 alias ne='nix-env -e'  # nix-env -e packagename # erase
 alias nu='nix-env -u'  # Update All Packages
 alias nl='nix-env -q'  # List All Packages
+alias ncu='nix-channel --update'  # Update all channegls
 
 alias edwc='nmcli dev disconnect enp7s0 && nmcli radio wifi on'
 alias ethc='nmcli dev connect enp7s0'
@@ -59,18 +60,20 @@ alias ethd='nmcli dev disconnect enp7s0'
 alias ethrecon='nmcli dev disconnect enp7s0 && nmcli dev connect enp7s0'
 alias netdevices='nmcli dev status'
 alias wdec='nmcli radio wifi off && nmcli dev connect enp7s0'
+alias wifihot='nmcli device wifi list && nmcli device wifi connect 9A:F6:1C:0D:A7:18'
 alias wificon='nmcli device wifi connect'
 alias wific='nmcli radio wifi on'
 alias wifid='nmcli radio wifi off'
 alias wifil='nmcli device wifi list'
 
-alias di='docker images'
-alias dps='docker ps'
-alias dpsa='docker ps -a'
-alias db='docker build -t'
-alias dr='docker run'
-alias ds='docker start'
-alias drm='docker rm'
+alias docker='sudo docker'
+alias di='sudo docker images'
+alias dps='sudo docker ps'
+alias dpsa='sudo docker ps -a'
+alias db='sudo docker build -t'
+alias dr='sudo docker run'
+alias ds='sudo docker start'
+alias drm='sudo docker rm'
 
 alias gs='git status'
 alias ga='git add .'
@@ -104,6 +107,7 @@ alias f='lf'
 alias vids='cd /home/$USER/Videos && lf'
 alias dwn='cd /home/$USER/Downloads && lf'
 alias fpy='cd /home/$USER/py4e/vdo && lf'
+alias csql='$HOME/Music/0_courses/sql/\[FreeCourseSite.com\]\ Udemy\ -\ The\ Complete\ SQL\ Bootcamp\ 2022\ Go\ from\ Zero\ to\ Hero && lf'
 
 # Fix vi opening with proper colorscheme
 alias nvi='/home/$USER/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
@@ -116,6 +120,9 @@ alias mpvrc='cd /home/$USER/.config/mpv && nvim -c "colorscheme habamax" -c "hi 
 alias vibk='mv /home/$USER/.config/nvim ~/.config/nvimfinal'
 alias viget='mv /home/$USER/.config/nvimfinal ~/.config/nvim'
 alias viacs='conda activate binacs && cd /home/$USER/work/binery-acs/etl-pipeline && NVIM_APPNAME=nvi nvim -c "Ex"'
+alias visrel='conda activate tenaga_eca && $HOME/work/social_eca && NVIM_APPNAME=nvi nvim -c "Ex"'
+alias visrjn='conda activate tenaga_eca_jn && /home/$USER/work/scl_rel/openai_api && jupyter notebook'
+alias visrai='conda activate tenaga_eca && /home/$USER/work/social_eca && NVIM_APPNAME=nvi nvim -c "Ex"'
 alias viz='nvim /home/$USER/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias soz='source /home/$USER/.zshrc'
 alias agenda='nvim /home/$USER/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
@@ -124,6 +131,7 @@ alias setlap='nvim /home/$USER/.dotdot/xtra/Desktop/setjob.txt -c "colorscheme h
 alias cmp='cd /home/$USER/work/binery-data/ && nvim 00companieslist.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias prac='cd /home/$USER/Music/python_std_e/prac && conda activate prac'
 alias gcpc='cd /home/$USER/Music/0_courses/gcp/GCP28min && lf'
+alias cfl='cd /home/$USER/Music/0_courses/flask/Udemy\ -\ Python\ and\ Flask\ Bootcamp\ Create\ Websites\ using\ Flask\! && lf'
 
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
