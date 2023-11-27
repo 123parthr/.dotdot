@@ -1,0 +1,8 @@
+The best time to learn git is yesterday. The best time to plant fruit trees is 5 years ago.
+The second best time to learn git is today.
+
+git config --global user.name "parth patel" = to set name globally
+git config user.name "parth patel" = to set name for current project
+git config user.name # to log out current saved name
+
+git config user.email parth@patel.com = to set email for current project
