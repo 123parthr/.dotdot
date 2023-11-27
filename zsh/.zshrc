@@ -11,7 +11,7 @@ zstyle ':vcs_info:git:*' formats "on %{$fg[yellow]%}%b%{$reset_color%}"
 # Set up the prompt (with git branch name)
 setopt prompt_subst
 PROMPT='%F{012} %~%f ${vcs_info_msg_0_}
-%F{002}%@ %U%D{%a}%u %D{%d %b}%f %F{015}%#%f '
+%F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{015}%#%f '
 
 # History in cache directory:
 HISTFILE=~/.histfile
@@ -44,7 +44,7 @@ alias nv='$HOME/.config/mescripts/nv.sh'
 
 alias alu='apt list --upgradable'
 alias ud='sudo apt update'
-alias ug='sudo apt upgrade -y'
+alias ug='sudo apt upgrade -y --allow-downgrades'
 alias sai='sudo apt install'
 alias sau='sudo apt autoremove'
 alias debin='sudo dpkg -i'
@@ -52,7 +52,7 @@ alias ni='nix-env -iA' # nix-env -iA nixpkgs.packagename # install
 alias ne='nix-env -e'  # nix-env -e packagename # erase
 alias nu='nix-env -u'  # Update All Packages
 alias nl='nix-env -q'  # List All Packages
-alias ncu='nix-channel --update'  # Update all channegls
+alias ncu='nix-channel --update'  # Update all channels
 
 alias edwc='nmcli dev disconnect enp7s0 && nmcli radio wifi on'
 alias ethc='nmcli dev connect enp7s0'
@@ -91,6 +91,7 @@ alias cacs='conda activate binacs'
 alias cda='conda deactivate'
 
 alias py='python3'
+alias mj='mojo'
 alias jn='jupyter notebook'
 alias pg='pgadmin4'
 
@@ -102,13 +103,17 @@ alias dsk='cd $HOME/Desktop'
 alias projacs='cd $HOME/binery-core/packages/binery-acs'
 alias sckls='cd $HOME/suckless'
 alias acscr='conda activate binacs && cd $HOME/work/binery-acs/etl-pipeline/scripts'
+alias binbot='conda activate binbot && cd $HOME/work/binery-bot'
+
 
 alias f='lf'
 alias vids='cd $HOME/Videos && lf'
 alias dw='cd $HOME/Downloads && lf'
 alias fpy='cd $HOME/py4e/vdo && lf'
 alias csql='$HOME/Music/0_courses/sql/\[FreeCourseSite.com\]\ Udemy\ -\ The\ Complete\ SQL\ Bootcamp\ 2022\ Go\ from\ Zero\ to\ Hero && lf'
-alias cfl='cd $HOME/Music/0_courses/flask/Udemy\ -\ Python\ and\ Flask\ Bootcamp\ Create\ Websites\ using\ Flask\! && lf'
+alias cfl='cd $HOME/Downloads/0a23courses/0python/pydev/flask/Udemy\ -\ Python\ and\ Flask\ Bootcamp\ Create\ Websites\ using\ Flask\! && lf'
+alias prsnl='cd $HOME/personal'
+alias lrnflask='cd $HOME/personal/lrnflask'
 
 # Fix vi opening with proper colorscheme
 alias nvi='$HOME/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
@@ -143,6 +148,9 @@ alias la='ls -lah --color=auto'
 #alias ls='exa --icons'
 alias dt='date +"%y%m%d"'
 alias q='exit'
+
+# GCP
+alias cldrnun='gcloud run deploy --source . --allow-unauthenticated'
 
 # alias lwf='flatpak run io.gitlab.librewolf-community & xdotool search --sync --onlyvisible --class "Librewolf" windowactivate key F11'
 # alias lw='flatpak run io.gitlab.librewolf-community'

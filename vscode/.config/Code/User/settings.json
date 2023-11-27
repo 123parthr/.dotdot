@@ -24,5 +24,8 @@
     "vscode-neovim.neovimExecutablePaths.linux": "/home/p/nvim/bin/nvim",
     "editor.fontFamily": "'Victor Mono' , 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15
+    "terminal.integrated.fontSize": 15,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    }
 }

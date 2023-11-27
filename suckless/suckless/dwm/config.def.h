@@ -34,13 +34,13 @@ static const Rule rules[] = {
     { "firefox",       NULL,       NULL,       1 << 2,       1 << 2,         0,           -1 },
     { "librewolf",     NULL,       NULL,       1 << 2,       1 << 2,         0,           -1 },
     { "Brave-browser", NULL,       NULL,       1 << 2,       1 << 2,         0,           -1 },
-    { "pgadmin4",      NULL,       NULL,       1 << 3,       1 << 3,         0,           -1 },
-    { "TablePlus",     NULL,       NULL,       1 << 3,       1 << 3,         0,           -1 },
+    { "mpv",           NULL,       NULL,       1 << 3,       1 << 3,         0,           -1 },
     { "Teams",         NULL,       NULL,       1 << 4,       1 << 4,         0,           -1 },
     { "Slack",         NULL,       NULL,       1 << 4,       1 << 4,         0,           -1 },
     { "Nautilus",      NULL,       NULL,       1 << 4,       1 << 4,         0,           -1 },
     { "File-roller",   NULL,       NULL,       1 << 4,       1 << 4,         1,           -1 },
-    { "mpv",           NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 },
+    { "pgadmin4",      NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 },
+    { "TablePlus",     NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 },
 };
 
 /* layout(s) */
