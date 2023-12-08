@@ -76,11 +76,17 @@ alias ds='sudo docker start'
 alias drm='sudo docker rm'
 
 alias gs='git status'
-alias ga='git add .'
+alias gl='git log'
+alias glone='git log --oneline'
+alias ga='git add '
+alias gaa='git add .'
 alias gm='git commit -m'
 alias gma='git commit -a -m'
 alias gps='git push'
 alias gpl='git pull'
+alias gc='git checkout'
+alias gcb='git checkout -b'
+alias gmain='git config --global init.defaultBranch main'
 
 alias pof='systemctl poweroff'
 alias rb='systemctl reboot'
@@ -104,22 +110,22 @@ alias projacs='cd $HOME/binery-core/packages/binery-acs'
 alias sckls='cd $HOME/suckless'
 alias acscr='conda activate binacs && cd $HOME/work/binery-acs/etl-pipeline/scripts'
 alias binbot='conda activate binbot && cd $HOME/work/binery-bot'
+alias chrt='cd $HOME/personal/cohort'
+alias cwd='cd $HOME/personal/ztm_webdev && NVIM_APPNAME=nvi nvim .'
+alias dwd='cd $HOME/Downloads/0a23courses/0js/webdev/\[GigaCourse.Com\]\ Udemy\ -\ The\ Complete\ Web\ Developer\ in\ 2023\ Zero\ to\ Mastery\ \(8-2023\) && lf'
 
 
 alias f='lf'
 alias vids='cd $HOME/Videos && lf'
 alias dw='cd $HOME/Downloads && lf'
-alias fpy='cd $HOME/py4e/vdo && lf'
-alias csql='$HOME/Music/0_courses/sql/\[FreeCourseSite.com\]\ Udemy\ -\ The\ Complete\ SQL\ Bootcamp\ 2022\ Go\ from\ Zero\ to\ Hero && lf'
-alias cfl='cd $HOME/Downloads/0a23courses/0python/pydev/flask/Udemy\ -\ Python\ and\ Flask\ Bootcamp\ Create\ Websites\ using\ Flask\! && lf'
 alias prsnl='cd $HOME/personal'
-alias lrnflask='cd $HOME/personal/lrnflask'
 
 # Fix vi opening with proper colorscheme
 alias nvi='$HOME/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
 # alias vi='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 # alias vi='NVIM_APPNAME=nvi nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias vi='NVIM_APPNAME=nvi nvim'
+alias vi.='NVIM_APPNAME=nvi nvim .'
 alias vit='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias virc='cd $HOME/.config/nvi && NVIM_APPNAME=nvi nvim -c "Ex"'
 alias mpvrc='cd $HOME/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
@@ -141,6 +147,13 @@ alias cmp='cd $HOME/work/binery-data/ && nvim 00companieslist.txt -c "colorschem
 alias prac='cd $HOME/Music/python_std_e/prac && conda activate prac'
 alias gcpc='cd $HOME/Music/0_courses/gcp/GCP28min && lf'
 
+alias lrnflask='cd $HOME/personal/lrnflask'
+alias fpy='cd $HOME/py4e/vdo && lf'
+alias csql='$HOME/Music/0_courses/sql/\[FreeCourseSite.com\]\ Udemy\ -\ The\ Complete\ SQL\ Bootcamp\ 2022\ Go\ from\ Zero\ to\ Hero && lf'
+alias cfl='cd $HOME/Downloads/0a23courses/0python/pydev/flask/Udemy\ -\ Python\ and\ Flask\ Bootcamp\ Create\ Websites\ using\ Flask\! && lf'
+alias cgit='cd $HOME/Downloads/0a23courses/devops/git/\[GigaCourse.Com\]\ Udemy\ -\ The\ Git\ \&\ Github\ Bootcamp/ && lf'
+
+
 alias lsa='ls -lah --color=auto --group-directories-first'
 alias ls='ls -ah --color=auto --group-directories-first'
 alias la='ls -lah --color=auto'
@@ -151,6 +164,9 @@ alias q='exit'
 
 # GCP
 alias cldrnun='gcloud run deploy --source . --allow-unauthenticated'
+alias gcldpdn='gcloud config set project binery-pdn'
+alias gclddev='gcloud config set project binery-mvp'
+alias gcldprj='gcloud config get-value project'
 
 # alias lwf='flatpak run io.gitlab.librewolf-community & xdotool search --sync --onlyvisible --class "Librewolf" windowactivate key F11'
 # alias lw='flatpak run io.gitlab.librewolf-community'

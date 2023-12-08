@@ -1,8 +1,22 @@
 The best time to learn git is yesterday. The best time to plant fruit trees is 5 years ago.
 The second best time to learn git is today.
 
-git config --global user.name "parth patel" = to set name globally
-git config user.name "parth patel" = to set name for current project
-git config user.name # to log out current saved name
+git Docs has examples, please check. Also book is good.
 
-git config user.email parth@patel.com = to set email for current project
+git config --global user.name "parth patel" # to set name globally
+git config user.name "parth patel" # to set name for current project
+git config user.name # to log out current saved name
+git config credential.helper store # stores password next time you input in plain text
+
+git config --global core.editor "nvim"
+git config --global core.editor "code --wait"
+git config --global core.editor "codium --wait"
+
+git config user.email parth@patel.com # to set email for current project
+git config credential.username #
+
+git status # harmless
+git log # harmless
+git log --oneline # precise list of commits
+
+git commit --amend # to add remaining file to last commit or correct last commit message
