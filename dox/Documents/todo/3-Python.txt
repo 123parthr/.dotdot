@@ -1,0 +1,14 @@
+Python
+
+
+
+
+################################################################################
+### Remaining
+* FastAPI
+  - Pydantic
+  - SQLModel
+  - ODMantic
+
+
+* Mojo (not to touch until last quater 2024)

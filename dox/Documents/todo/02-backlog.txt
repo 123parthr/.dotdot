@@ -1,0 +1,21 @@
+### Remaining
+
+* Cohort
+  + Ad hoc classes
+  + js roadmap
+  + create a Promise class to understand promises better
+  + exercises week 1, 2, 3, 4, 5
+  + week 2.4 advanced bash
+  + week 2.7 Git and Github
+  + create an http server from scratch in c and in go using gurilla framework
+  + middleware: count the number of requests
+  + middleware: Find the average time your server is taking to handle a request
+
+* Youtube(harkirat bhai)
+  - 
+
+* Work
+  - get request for company select reminder
+
+* purchase
+

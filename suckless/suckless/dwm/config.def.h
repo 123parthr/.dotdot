@@ -40,6 +40,7 @@ static const Rule rules[] = {
     { "Nautilus",      NULL,       NULL,       1 << 4,       1 << 4,         0,           -1 },
     { "File-roller",   NULL,       NULL,       1 << 4,       1 << 4,         1,           -1 },
     { "pgadmin4",      NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 },
+    { "MongoDB Compass",      NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 },
     { "TablePlus",     NULL,       NULL,       1 << 5,       1 << 5,         0,           -1 },
 };
 
@@ -112,6 +113,7 @@ static const Key keys[] = {
 	/* TAGKEYS(                        XK_comma,                  7)
 	TAGKEYS(                        XK_9,                      8) */
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+    { MODKEY,                       XK_p, spawn, SHCMD("$HOME/.dotdot/mescripts/.config/mescripts/screenshotdwm.sh") },
 };
 
 /* button definitions */

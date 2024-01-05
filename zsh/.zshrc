@@ -41,6 +41,7 @@ unsetopt beep notify
 alias a='$HOME/.config/mescripts/a.sh'
 alias c='$HOME/.config/mescripts/a.sh'
 alias nv='$HOME/.config/mescripts/nv.sh'
+alias pstm='cd $HOME/suckless/Postman/ && ./Postman'
 
 alias alu='apt list --upgradable'
 alias ud='sudo apt update'
@@ -66,6 +67,8 @@ alias wific='nmcli radio wifi on'
 alias wifid='nmcli radio wifi off'
 alias wifil='nmcli device wifi list'
 
+alias nh='ngrok http'
+alias dcub='sudo docker compose up --build'
 alias docker='sudo docker'
 alias di='sudo docker images'
 alias dps='sudo docker ps'
@@ -87,6 +90,8 @@ alias gpl='git pull'
 alias gc='git checkout'
 alias gcb='git checkout -b'
 alias gmain='git config --global init.defaultBranch main'
+alias gpomr='git pull origin master'
+alias gpomn='git pull origin main'
 
 alias pof='systemctl poweroff'
 alias rb='systemctl reboot'
@@ -100,6 +105,7 @@ alias py='python3'
 alias mj='mojo'
 alias jn='jupyter notebook'
 alias pg='pgadmin4'
+alias mdbc='mongodb-compass'
 
 alias dox='cd $HOME/.dotdot/dox/Documents'
 alias docacs='cd $HOME/Desktop/binery'
@@ -109,23 +115,27 @@ alias dsk='cd $HOME/Desktop'
 alias projacs='cd $HOME/binery-core/packages/binery-acs'
 alias sckls='cd $HOME/suckless'
 alias acscr='conda activate binacs && cd $HOME/work/binery-acs/etl-pipeline/scripts'
-alias binbot='conda activate binbot && cd $HOME/work/binery-bot'
-alias chrt='cd $HOME/personal/cohort'
-alias cwd='cd $HOME/personal/ztm_webdev && NVIM_APPNAME=nvi nvim .'
+# alias binbot='conda activate binbot && cd $HOME/work/wati-api'
+# alias binbotc='conda activate binbot && cd $HOME/work/wati-api && NVIM_APPNAME=nvi nvim .'
+alias binbot='cd $HOME/work/binery-bot'
+alias binbotc='cd $HOME/work/binery-bot && NVIM_APPNAME=nvi nvim .'
+alias chrtc='cd $HOME/prsnl/cohort && NVIM_APPNAME=nvi nvim .'
+alias chrt='cd $HOME/prsnl/cohort'
+alias cwd='cd $HOME/prsnl/ztm_webdev && NVIM_APPNAME=nvi nvim .'
 alias dwd='cd $HOME/Downloads/0a23courses/0js/webdev/\[GigaCourse.Com\]\ Udemy\ -\ The\ Complete\ Web\ Developer\ in\ 2023\ Zero\ to\ Mastery\ \(8-2023\) && lf'
+alias chas='cd $HOME/prsnl/cohort/assignments && NVIM_APPNAME=nvi nvim .'
 
 
 alias f='lf'
 alias vids='cd $HOME/Videos && lf'
 alias dw='cd $HOME/Downloads && lf'
-alias prsnl='cd $HOME/personal'
+alias prsnl='cd $HOME/prsnl'
 
 # Fix vi opening with proper colorscheme
 alias nvi='$HOME/.local/bin/squashfs-root/usr/bin/nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"' # add .local/bin instead of /bin
 # alias vi='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 # alias vi='NVIM_APPNAME=nvi nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias vi='NVIM_APPNAME=nvi nvim'
-alias vi.='NVIM_APPNAME=nvi nvim .'
 alias vit='nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
 alias virc='cd $HOME/.config/nvi && NVIM_APPNAME=nvi nvim -c "Ex"'
 alias mpvrc='cd $HOME/.config/mpv && nvim -c "colorscheme habamax" -c "hi Normal guibg=#000000" -c "Ex"'
@@ -136,18 +146,20 @@ alias visrel='conda activate tenaga_eca && $HOME/work/social_eca && NVIM_APPNAME
 alias jnsr='conda activate tenaga_eca_jn && $HOME/work/scl_rel/openai_api && jupyter notebook'
 alias visrai='conda activate tenaga_eca && $HOME/work/social_eca && NVIM_APPNAME=nvi nvim -c "Ex"'
 alias cdsrsc='conda activate tenaga_eca && $HOME/work/social_eca/scripts'
-alias lrnc='cd $HOME/personal/lrnc'
+alias lrnc='cd $HOME/prsnl/lrnc'
 # alias viz='nvim /home/$USER/.zshrc -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias viz='NVIM_APPNAME=nvi nvim $HOME/.zshrc'
 alias soz='source $HOME/.zshrc'
 alias agenda='nvim $HOME/dox/0today.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
-alias todo='nvim $HOME/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+# alias todo='nvim $HOME/dox/todo.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
+alias todo='cd $HOME/.dotdot/dox/Documents/todo/ && NVIM_APPNAME=nvi nvim -c "Ex"'
+alias today='cd $HOME/.dotdot/dox/Documents/todo/ && NVIM_APPNAME=nvi nvim ./01-today.txt -c ":15"'
 alias setlap='nvim $HOME/.dotdot/xtra/Desktop/setjob.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias cmp='cd $HOME/work/binery-data/ && nvim 00companieslist.txt -c "colorscheme habamax" -c "hi Normal guibg=#000000"'
 alias prac='cd $HOME/Music/python_std_e/prac && conda activate prac'
 alias gcpc='cd $HOME/Music/0_courses/gcp/GCP28min && lf'
 
-alias lrnflask='cd $HOME/personal/lrnflask'
+alias lrnflask='cd $HOME/prsnl/lrnflask'
 alias fpy='cd $HOME/py4e/vdo && lf'
 alias csql='$HOME/Music/0_courses/sql/\[FreeCourseSite.com\]\ Udemy\ -\ The\ Complete\ SQL\ Bootcamp\ 2022\ Go\ from\ Zero\ to\ Hero && lf'
 alias cfl='cd $HOME/Downloads/0a23courses/0python/pydev/flask/Udemy\ -\ Python\ and\ Flask\ Bootcamp\ Create\ Websites\ using\ Flask\! && lf'
@@ -192,8 +204,12 @@ unset __conda_setup
 # conda config --set auto_activate_base false
 # <<< conda initialize <<<
 
-export PATH="$PATH:/usr/bin/Postman:/usr/pgadmin4/bin:$HOME/nvim/bin"
+export PATH="$PATH:/usr/bin/Postman:/usr/pgadmin4/bin:$HOME/nvim/bin:/usr/bin/"
 
 if [ -e /home/p/.nix-profile/etc/profile.d/nix.sh ]; then . /home/p/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 export MODULAR_HOME="$HOME/.modular"
 export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

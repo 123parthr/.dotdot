@@ -5,7 +5,7 @@ git Docs has examples, please check. Also book is good.
 
 git config --global user.name "parth patel" # to set name globally
 git config user.name "parth patel" # to set name for current project
-git config user.name # to log out current saved name
+git config user.name # to log current saved name
 git config credential.helper store # stores password next time you input in plain text
 
 git config --global core.editor "nvim"

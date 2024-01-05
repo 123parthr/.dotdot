@@ -1,0 +1,24 @@
+JS/TS/JSDoc
+
+
+
+
+################################################################################
+### Remaining
+* Courses
+  - Cohort (Harkirat)
+  - ZTM Web Dev
+  - JS Project
+  - DS n ALGO
+  - TS
+  - JSDoc
+
+
+* GSOC
+
+
+* Miscellaneous
+  - HTMX
+  - PicoCSS
+  - bun /w elysiajs
+  - solid /n solid start

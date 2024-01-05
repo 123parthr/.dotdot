@@ -1,0 +1,30 @@
+Developer WorkFlow and Productivity
+
+
+
+
+################################################################################
+### Remaining
+* Neovim
+  - config
+    - kickstart.nvim
+    - couple series on nvim from scratch/ understanding nvim YTUBE
+    - lazy.nvim
+    - nvimconf talks
+  - vimnvim distro
+    - mini.nvim
+    - harpoon
+    - telescope / fzf
+
+
+* VSCode
+
+
+* tmux
+
+
+* zellij
+
+
+* zsh
+  - notify when shell command completes (eg. deploying to cloud)

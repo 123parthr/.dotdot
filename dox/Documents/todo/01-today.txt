@@ -1,0 +1,269 @@
+################################################################################
+Monthly
+################################################################################
+Weekly
+* Clean
+  - Room
+    - windows
+    - computer bookmarks
+* Prep
+  - walnuts and pistas for the week
+* health
+  - update xr regime
+  - watch/learn new things about medical science (1-2 hrs)
+################################################################################
+################################################################################
+
+Thursday 4/1/2024
+*** only alternate day tennis(8-9) until you reach with cohort after tournament
+
+* Cohort
+  - start week 3
+    - finish 3.1 and 3.2
+  - finish week 3 and 4 by sunday
+    - seriously look into it
+
+* Work
+  - Wati callback
+      - remind Mama for unselected company uploads only save 1 file
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Wednesday 3/1/2024
+*** only alternate day tennis(8-9) until you reach with cohort after tournament
+
+* add functionality
+  done - screenshot tool for dwm
+
+* Cohort
+  - start week 3
+    - finish 3.1 and 3.2
+  - finish week 3 and 4 by sunday
+    - seriously look into it
+
+* Work
+  - Wati callback
+      - remind Mama for unselected company uploads only save 1 file
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Saturday 30/12/2023
+*** only alternate day tennis(8-9) until you reach with cohort after tournament
+
+* Cohort
+  - start week 3
+  - finish week 3 and 4 by sunday
+
+* Work
+  - Wati callback
+      - remind Mama for unselected company uploads only save 1 file
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Friday 29/12/2023
+*** only alternate day tennis(8-9) until you reach with cohort after tournament
+
+* Cohort
+  - start week 3
+  - finish week 3 and 4 by sunday
+
+* Work
+  - Wati callback
+      - remind Mama for unselected company uploads only save 1 file
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Thursday 28/12/2023
+*** only alternate day tennis until you reach with cohort after tournament
+
+* Cohort
+  - start week 3
+  - finish week 3 and 4 by sunday
+
+* Work
+  - Wati callback
+      - remind Mama for unselected company uploads only save 1 file
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Thursday 28/12/2023
+*** only alternate day tennis until you reach with cohort after tournament
+
+* Cohort
+  - 
+
+* Work
+  - Wati callback
+      - remind Mama for unselected company uploads only save 1 file
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Wednesday 27/12/2023
+* only alternate day tennis until you reach with cohort after tournament
+
+* Cohort
+  - exercises week 1
+  - js roadmap
+  - promises and async await other resources for clarity
+  - create a Promise class to understand promises better
+  + week 2.4 advanced bash
+  + create an http server from scratch in c and in go using gurilla framework
+  + create a todo app with express that lets users store todos on server
+
+* Work
+  - Wati callback
+      - log lowres response to check true and True or false
+      - remind Mama for unselected company uploads only save 1 file
+      - get request for company select reminder
+  - automatically take the latest secret from secret manager
+
+* purchase
+
+################################################################################
+
+Tuesday 26/12/2023
+* only alternate day tennis until you reach with cohort
+
+* purchase
+
+* Cohort
+  done - Week 2.2 -> node.js vid
+  - exercises week 1
+  - js roadmap
+  - promises and async await other resources for clarity
+  - create a Promise class to understand promises better
+  + create an http server from scratch in c and in go using gurilla framework
+  + create a todo app with express that lets users store todos on server
+
+* Work
+  - Wati callback
+      - log lowres response to check true and True or false
+      - remind Mama for unselected company uploads only save 1 file
+      - get request for company select reminder
+      - wati_send_whatsapp_media function
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Monday 25/12/2023
+* only alternate day tennis until you reach with cohort
+
+* purchase
+  done - room heater
+
+* Cohort
+  - Week 2.2 -> node.js vid
+  - exercises week 1
+  - js roadmap
+  - promises and async await other resources for clarity
+  - create a Promise class to understand promises better
+  + create an http server from scratch in c and in go using gurilla framework
+  + create a todo app with express that lets users store todos on server
+
+* Work
+  - Wati callback
+      - log lowres response to check true and True or false
+      - remind Mama for unselected company uploads only save 1 file
+      - get request for company select reminder
+      done - template for sending file and then wati_send_whatsapp_media function
+  - automatically take the latest secret from secret manager
+
+################################################################################
+
+Saturday 23/12/2023
+* no alternate day tennis until you reach with cohort
+
+* purchase
+  ordered - room heater
+
+* Cohort
+  - Week 2.2 -> node.js vid
+  - exercises week 1
+  - js roadmap
+  - promises and async await other resources for clarity
+  - create a Promise class to understand promises better
+  + create an http server from scratch in c and in go using gurilla framework
+  + create a todo app with express that lets users store todos on server
+
+* Work
+  - Wati callback
+      - automatically take the latest secret from secret manager
+      - log lowres response to check true and True or false
+      - template for sending file and then wati_send_whatsapp_media function
+      - remind Mama for unselected company uploads only save 1 file
+      - get request for company select reminder
+
+################################################################################
+
+Friday 22/12/2023
+* no alternate day tennis until you reach with cohort
+
+* purchase
+  ordered - room heater
+  - three pin for laptop
+
+* Cohort
+  - Week 2.2 -> node.js vid
+  - exercises week 1
+  - js roadmap
+  - promises and async await other resources for clarity
+  - create a Promise class to understand promises better
+  done - Week 2.1 -> revision asyncjs
+
+* Work
+  - Wati callback
+      - automatically take the latest secret from secret manager
+      - log lowres response to check true and True or false
+      - template for sending file and then wati_send_whatsapp_media function
+      - remind Mama for unselected company uploads only save 1 file
+      - get request for company select reminder
+
+################################################################################
+
+Thursday 21/12/2023
+
+* purchase
+  ordered - room heater
+
+* Cohort
+  - Week 2 -> revision asyncjs
+  - js roadmap
+  - exercises week 1
+  - promises and async await other resources for clarity
+  - Week 2 -> node.js vid
+
+* Work
+  - Wati callback
+      - automatically take the latest secret from secret manager
+      - log lowres response to check true and True or false
+      - template for sending file and then wati_send_whatsapp_media function
+      - remind Mama for unselected company uploads only save 1 file
+
+################################################################################
+
+Wednesday 20/12/2023
+
+* purchase
+  - room heater
+
+* Cohort
+  - Week 2 -> revision asyncjs
+  - js roadmap
+  - exercises week 1
+  - promises and async await other resources for clarity
+  - Week 2 -> node.js vid
+
+* Work
+  - Wati callback
+  - automatically take the latest secret from secret manager
+  - log lowres response to check true and True or false
+  - template for sending file and then wati_send_whatsapp_media function
+  - remind Mama for unselected company uploads only save 1 file
+
+################################################################################
