@@ -10,8 +10,8 @@ function battery_charge {
         charge=$(expr $(expr $b_now \* 100) / $b_full)
 
         # Choose the color according to the charge or if we are charging then always green
-        if [[ $charge -gt 50 || "Charging" == $b_status ]]; then
-            echo -n "%{$fg_bold[green]%}$charge "
+        if [[ $charge -gt 30 || "Charging" == $b_status ]]; then
+            echo -n "%{$fg[green]%}$charge "
         elif [[ $charge -gt 20 ]]; then
             echo -n "%{$fg_bold[yellow]%}$charge "
         else
