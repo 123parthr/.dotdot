@@ -1,9 +1,7 @@
 # Function to get battery percentage
 battery_percentage() {
-    if command -v pmset &> /dev/null; then
-        pmset -g batt | grep -o "[0-9]*%" | tr -d '%'
-    elif command -v acpi &> /dev/null; then
-        acpi -b | grep -o "[0-9]*%" | tr -d '%'
+    if command -v ioreg &> /dev/null; then
+        ioreg -n AppleSmartBattery -r | grep -o '"CurrentCapacity" = [0-9]\+' | awk '{print int($3/$5 * 100)}'
     else
         echo "?"
     fi
