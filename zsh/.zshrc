@@ -1,3 +1,14 @@
+# Function to get battery percentage
+battery_percentage() {
+    if command -v pmset &> /dev/null; then
+        pmset -g batt | grep -o "[0-9]*%" | tr -d '%'
+    elif command -v acpi &> /dev/null; then
+        acpi -b | grep -o "[0-9]*%" | tr -d '%'
+    else
+        echo "?"
+    fi
+}
+
 # Enable colors
 autoload -U colors && colors
 
@@ -8,10 +19,26 @@ precmd() { vcs_info }
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats "on %{$fg[yellow]%}%b%{$reset_color%}"
 
-# Set up the prompt (with git branch name)
+# Set up the prompt (with git branch name and battery percentage)
 setopt prompt_subst
 PROMPT='%F{012} %~%f ${vcs_info_msg_0_}
-%F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{015}%#%f '
+%F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{087}Battery:%f $(battery_percentage)% %F{015}%#%f '
+################################################################################
+# # Enable colors
+# autoload -U colors && colors
+#
+# # Load version control information
+# autoload -Uz vcs_info
+# precmd() { vcs_info }
+#
+# # Format the vcs_info_msg_0_ variable
+# zstyle ':vcs_info:git:*' formats "on %{$fg[yellow]%}%b%{$reset_color%}"
+#
+# # Set up the prompt (with git branch name)
+# setopt prompt_subst
+# PROMPT='%F{012} %~%f ${vcs_info_msg_0_}
+# %F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{015}%#%f '
+################################################################################
 
 # History in cache directory:
 HISTFILE=~/.histfile
