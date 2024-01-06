@@ -13,14 +13,14 @@ function battery_charge {
         if [[ $charge -gt 30 || "Charging" == $b_status ]]; then
             echo -n "%{$fg[green]%}$charge "
         elif [[ $charge -gt 20 ]]; then
-            echo -n "%{$fg_bold[yellow]%}$charge "
+            echo -n "%{$fg[yellow]%}$charge "
         else
-            echo -n "%{$fg_bold[red]%}$charge "
+            echo -n "%{$fg[red]%}$charge "
         fi
 
         # Display a plus if we are charging
         if [[ "Charging" == $b_status ]]; then
-            echo -n "%{$fg_bold[green]%}+++ "
+            echo -n "%{$fg[green]%}+++ "
         fi
     else
         echo -n ""
