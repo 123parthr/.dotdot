@@ -1,0 +1,25 @@
+hidden partial alphanumeric_keys
+xkb_symbols "hjkl-like-vi" {
+    // arrow keys (like vim)
+  key <AD07> {
+    actions = [ NoAction(), NoAction(), Redirect(key=<RGHT>), NoAction() ]
+  };
+  key <AC07> {
+    actions = [ NoAction(), NoAction(), Redirect(key=<LEFT>), NoAction() ]
+  };
+  key <AB03> {
+    actions = [ NoAction(), NoAction(), Redirect(key=<DOWN>), NoAction() ]
+  };
+  key <AB04> {
+    actions = [ NoAction(), NoAction(),   Redirect(key=<UP>), NoAction() ]
+  };
+
+  // row over HJKL
+
+  key <AD11> {
+    actions =   [ NoAction(), NoAction(), Redirect(key=<PRSC>), Redirect(key=<PRSC>) ]
+  };
+  key <CAPS> {
+    actions = [ Redirect(key=<ESC>,clearmods=all), NoAction(),  Redirect(key=<DELE>,clearmods=all) ]
+  };
+};

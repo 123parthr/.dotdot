@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xset r rate 300 45 r 66
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=xset cursor speed
+Name=xset cursor speed
+Comment[en_US]=make cursor move fast and backspace repetative
+Comment=make cursor move fast

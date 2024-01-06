@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/bash -c "sleep 4; /usr/bin/xmodmap /home/$USER/.config/mescripts/.Xmodmap"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=xmod
+Name=xmod
+Comment[en_US]=setup keys
+Comment=setup keys

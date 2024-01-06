@@ -1,0 +1,67 @@
+// Based on Arno's Engram keyboard layout v2.0 - https://engram.dev for kyria
+default hidden partial alphanumeric_keys
+xkb_symbols "basic"
+{
+
+    name[group1]= "english (personal)";
+
+    include "g-hjkl-like-vi"
+
+	key <TLDE> {	[     grave,	asciitilde	]	}; // `~
+    	key <AE01> {	[	  1,	exclam 	]	}; // 1!
+    	key <AE02> {	[	  2,	at		]	}; // 2@
+    	key <AE03> {	[	  3,	numbersign	]	}; // 3#
+    	key <AE04> {	[	  4,	dollar		]	}; // 4$
+    	key <AE05> {	[	  5,	percent	]	}; // 5%
+    	key <AE06> {	[	  6,	asciicircum	]	}; // 6^
+    	key <AE07> {	[	  7,	ampersand	]	}; // 7&
+    	key <AE08> {	[	  8,	asterisk	]	}; // 8*
+    	key <AE09> {	[	  9,	parenleft	]	}; // 9(
+   	key <AE10> {	[	  0,	parenright	]	}; // 0)
+    	key <AE11> {	[     minus,	underscore	]	}; // -_
+    	key <AE12> {	[     equal,	plus		]	}; // =+
+
+	key <AD01> { [            b,           B,        plus,        plus ] }; // bB++
+	key <AD02> { [            y,           Y,    asterisk,    asterisk ] }; // yY**
+	key <AD03> { [            o,           O,  underscore,  underscore ] }; // oO__
+	key <AD04> { [            u,           U,     percent,     percent ] }; // uU%%
+	key <AD05> { [       exclam,bracketright,      exclam,      exclam ] }; // !]!!
+	key <AD06> { [     question,   backslash,    question,    question ] }; // ?\??
+	key <AD07> { [            l,           L,           L,          7  ] }; // lL#7
+	key <AD08> { [            d,           D,   semicolon,          8  ] }; // dD;8
+	key <AD09> { [            w,           W,       colon,          9  ] }; // wW:9
+	key <AD10> { [            v,           V,       U20B9,       U20B9 ] }; // vV₹₹   U+20B9
+	key <AD11> { [            z,           Z,        Print,      Print ] }; // zZ print-screenx2
+	key <AD12> { [   numbersign,      dollar ] }; // #$ NA
+	key <BKSL> { [           at,       grave ] }; // @` NA
+
+	key <AC01> { [            c,           C,       equal,       equal ] }; // cC==
+	key <AC02> { [            i,           I,       minus,       minus ] }; // iI--
+	key <AC03> { [            e,           E,       slash,       slash ] }; // eE//
+	key <AC04> { [            a,           A,   parenleft,   parenleft ] }; // aA((
+	key <AC05> { [        comma,  parenright,       comma,       comma ] }; // ,),,
+	key <AC06> { [       period, asciicircum,      period,      period ] }; // .^..
+	key <AC07> { [            h,           H,           H,          4  ] }; // hHH4
+	key <AC08> { [            t,           T, bracketleft,          5  ] }; // tT[5
+	key <AC09> { [            s,           S,   braceleft,          6  ] }; // sS{6
+	key <AC10> { [            n,           N,  numbersign,          0  ] }; // nN#0
+	key <AC11> { [            q,           Q,  asciitilde,   asciitilde] }; // qQ~~
+
+	key <AB01> { [            g,           G,        less,        less ] }; // gG<<
+	key <AB02> { [            x,           X,     greater,     greater ] }; // xX>>
+	key <AB03> { [            j,           J,           J,           J ] }; // jJ::
+	key <AB04> { [            k,           K,           K,           K ] }; // kK;;
+	key <AB05> { [     quotedbl,  braceright,    quotedbl,    quotedbl ] }; // "}""
+	key <AB06> { [   apostrophe,       grave,  apostrophe,  apostrophe ] }; // '`''
+	key <AB07> { [            r,           R,   ampersand,           1 ] }; // rR&1
+	key <AB08> { [            m,           M,          at,           2 ] }; // mM@2
+	key <AB09> { [            f,           F,         bar,           3 ] }; // fF|3
+	key <AB10> { [            p,           P,      dollar,      dollar ] }; // pP$$
+
+    key <CAPS> { [       Escape,    BackSpace,       Delete ] };
+    key <SPCE> { [        space,        space ] };
+    key <BKSP> { [    Caps_Lock,    Caps_Lock ] };
+
+    include "level3(lalt_switch)"
+
+};
