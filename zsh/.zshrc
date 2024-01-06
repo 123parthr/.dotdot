@@ -1,12 +1,4 @@
-# Function to get battery percentage
-battery_percentage() {
-    if command -v ioreg &> /dev/null; then
-        ioreg -n AppleSmartBattery -r | grep -o '"CurrentCapacity" = [0-9]\+' | awk '{print int($3/$5 * 100)}'
-    else
-        echo "?"
-    fi
-}
-
+################################################################################
 # Enable colors
 autoload -U colors && colors
 
@@ -17,25 +9,10 @@ precmd() { vcs_info }
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats "on %{$fg[yellow]%}%b%{$reset_color%}"
 
-# Set up the prompt (with git branch name and battery percentage)
+# Set up the prompt (with git branch name)
 setopt prompt_subst
 PROMPT='%F{012} %~%f ${vcs_info_msg_0_}
-%F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{087}Battery:%f $(battery_percentage)% %F{015}%#%f '
-################################################################################
-# # Enable colors
-# autoload -U colors && colors
-#
-# # Load version control information
-# autoload -Uz vcs_info
-# precmd() { vcs_info }
-#
-# # Format the vcs_info_msg_0_ variable
-# zstyle ':vcs_info:git:*' formats "on %{$fg[yellow]%}%b%{$reset_color%}"
-#
-# # Set up the prompt (with git branch name)
-# setopt prompt_subst
-# PROMPT='%F{012} %~%f ${vcs_info_msg_0_}
-# %F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{015}%#%f '
+%F{002}%@ %B%D{%a}%b %D{%d %b}%f %F{015}%#%f '
 ################################################################################
 
 # History in cache directory:
