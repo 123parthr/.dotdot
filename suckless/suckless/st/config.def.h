@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "Liberation Mono:pixelsize=17:antialias=true:autohint=true";
-static char *font = "Victor Mono Medium:pixelsize=17:antialias=true:autohint=true";
+//static char *font = "Victor Mono Medium Mono:pixelsize=17:antialias=true:autohint=true";
+static char *font = "VictorMono Nerd Font Mono:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
