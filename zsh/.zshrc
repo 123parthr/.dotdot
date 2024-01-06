@@ -43,6 +43,7 @@ alias c='$HOME/.config/mescripts/a.sh'
 alias nv='$HOME/.config/mescripts/nv.sh'
 alias pstm='cd $HOME/suckless/Postman/ && ./Postman'
 
+alias xx='chmod +x'
 alias alu='apt list --upgradable'
 alias ud='sudo apt update'
 alias ug='sudo apt upgrade -y --allow-downgrades'
