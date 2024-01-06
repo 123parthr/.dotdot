@@ -1,37 +1,32 @@
 # Function to get battery charge
 function battery_charge {
+    # Read battery information from sysfs
     b_now=$(cat /sys/class/power_supply/BAT1/energy_now)
     b_full=$(cat /sys/class/power_supply/BAT1/energy_full)
     b_status=$(cat /sys/class/power_supply/BAT1/status)
-    charge=$(expr $(expr $b_now \* 10) / $b_full)
+
+    # Calculate the charge percentage
+    charge=$(expr $(expr $b_now \* 100) / $b_full)
 
     # Choose the color according to the charge or if we are charging then always green
-    if [[ $charge -gt 5 || "Charging" == $b_status ]]; then
-        echo -n "%{$fg[green]%}"
-    elif [[ $charge -gt 2 ]]; then
-        echo -n "%{$fg[yellow]%}"
+    if [[ $charge -gt 50 || "Charging" == $b_status ]]; then
+        echo -n "%{$fg_bold[green]%}$charge"
+    elif [[ $charge -gt 20 ]]; then
+        echo -n "%{$fg_bold[yellow]%}$charge"
     else
-        echo -n "%{$fg[red]%}"
+        echo -n "%{$fg_bold[red]%}$charge"
     fi
 
-    # Display charge * '▸' and (10 - charge) * '▹'
-    i=0
-    while [[ i -lt $charge ]]; do
-        i=$(expr $i + 1)
-        echo -n "▸"
-    done
-    while [[ i -lt 10 ]]; do
-        i=$(expr $i + 1)
-        echo -n "▹"
-    done
+    # Display the charge percentage
+    # echo -n "$charge %"
 
     # Display a plus if we are charging
     if [[ "Charging" == $b_status ]]; then
-        echo -n "%{$fg_bold[green]%} +"
+        echo -n "%{$fg_bold[green]%}+++"
     fi
 
     # Reset the color
-    echo -n "%{$reset_color%} "
+    #echo -n "%{$reset_color%} "
 }
 
 # Enable colors
@@ -47,7 +42,7 @@ zstyle ':vcs_info:git:*' formats "on %{$fg[yellow]%}%b%{$reset_color%}"
 # Set up the prompt (with git branch name and battery charge)
 setopt prompt_subst
 PROMPT='%F{012} %~%f ${vcs_info_msg_0_}
-%F{002}%@ %B%D{%a}%b %D{%d %b}%f $(battery_charge)%F{015}%#%f '
+%F{002}%@ %B%D{%a}%b %D{%d %b}%f %B$(battery_charge)%b %F{015}%#%f '
 ################################################################################
 # # Enable colors
 # autoload -U colors && colors
