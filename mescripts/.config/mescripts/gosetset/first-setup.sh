@@ -4,7 +4,10 @@
 chmod +x *.sh
 
 ##### 1 install software
+### nix and apps
 # ./nix.sh
+### fonts
+# ./font.sh
 
 cd $HOME/.dotdot/mescripts/.config/mescripts/gosetset/
 
