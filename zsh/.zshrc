@@ -10,7 +10,7 @@ function battery_charge {
         charge=$(expr $(expr $b_now \* 100) / $b_full)
 
         # Choose the color according to the charge or if we are charging then always green
-        if [[ $charge -gt 30 || "Charging" == $b_status ]]; then
+        if [[ $charge -gt 35 || "Charging" == $b_status ]]; then
             echo -n "%{$fg[green]%}$charge "
         elif [[ $charge -gt 20 ]]; then
             echo -n "%{$fg[yellow]%}$charge "
@@ -20,7 +20,7 @@ function battery_charge {
 
         # Display a plus if we are charging
         if [[ "Charging" == $b_status ]]; then
-            echo -n "%{$fg[green]%}+++ "
+            echo -n "%{$fg[blue]%}+++ "
         fi
     else
         echo -n ""
@@ -112,6 +112,10 @@ alias wificon='nmcli device wifi connect'
 alias wific='nmcli radio wifi on'
 alias wifid='nmcli radio wifi off'
 alias wifil='nmcli device wifi list'
+
+alias br='$HOME/.dotdot/mescripts/.config/mescripts/brightness.sh'
+alias bru='sudo $HOME/.dotdot/mescripts/.config/mescripts/brightness.sh up'
+alias brd='sudo $HOME/.dotdot/mescripts/.config/mescripts/brightness.sh down'
 
 alias nh='ngrok http'
 alias dcub='sudo docker compose up --build'

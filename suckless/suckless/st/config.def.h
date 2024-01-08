@@ -7,7 +7,7 @@
  */
 //static char *font = "Liberation Mono:pixelsize=17:antialias=true:autohint=true";
 //static char *font = "Victor Mono Medium Mono:pixelsize=17:antialias=true:autohint=true";
-static char *font = "VictorMono Nerd Font Mono:pixelsize=22:antialias=true:autohint=true";
+static char *font = "VictorMono Nerd Font Mono:pixelsize=23:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
